@@ -7,13 +7,13 @@ const Alert = () => {
     text4Red: "OMG! Something really bad has happended!",
     text4Orange: "Well, it is not that bad after all!"
   };
-  console.log(colorClasses.color);
+  // console.log(colorClasses.color);
   //your component here
   if (colorClasses.color === 'red') {
     //for red color
     return (
       <div className="alert alert-danger" role="alert">
-        OMG! Something really bad has happended!
+        {colorClasses.text4Red}
 
       </div>)
 
@@ -21,7 +21,7 @@ const Alert = () => {
   //for yellow color
   return (
     <div className="alert alert-warning" role="alert">
-      Well, it is not that bad after all!
+      {colorClasses.text4Orange}
     </div>
   )
 
