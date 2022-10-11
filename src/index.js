@@ -26,6 +26,7 @@ const Alert = () => {
   )
 
 
+
 };
 
 // here is where the alert component is being used, you don't have to edit this part,
